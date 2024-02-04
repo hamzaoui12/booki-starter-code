@@ -58,7 +58,39 @@ a {
     color: var(--main-bg-color)
 }
 
-
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin: 0 35px;
+  }
+  
+  .header_nav {
+    margin-left: auto;
+  }
+   
+ ul li a:hover {
+    color: #0065fc;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+  }
+  
+  .menu li {
+    padding: 2rem;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    color: black;
+  }
+  
+  .menu li:hover {
+    border-top: 3px solid#0065FC;
+  }
 
 /****** Hebergements And Populaires ***********/
 .hebergements-and-populaires {
@@ -90,7 +122,7 @@ a {
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap: 30px;
-    margin-top: 33px;
+    margin-top: 30px;
 }
 
 .hebergements-cards .card {
@@ -101,7 +133,7 @@ a {
 
 .hebergements-cards img {
 
-    height: 136px;
+    height: 124px;
     object-fit: cover;
     width: 100%;
     border-top-right-radius: 20px;
@@ -110,10 +142,17 @@ a {
     
 }
 
+.hebergements-cards .card-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
 .hebergements-cards .card-content {
     width: 67%;
     padding-left: 15px;
     display: flex;
+    gap: 0.5rem;
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
@@ -125,6 +164,13 @@ a {
     white-space: nowrap;
 }
 
+.hebergements-load-more {
+    display: flex;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    top: 1rem;
+  }
 .hebergements-cards .card-subtitle {
     margin: 0;
     white-space: nowrap;
@@ -339,7 +385,73 @@ a {
     border-radius: 100%;
     font-weight: bold;
   }
-  
+  .activates-title {
+    font-size: 22px;
+
+
+}
+  .Activites {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 30px ;
+}
+.ActivitesCard {
+
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 4px 2px rgba(0, 0, 0, 0.1);
+    
+}
+.ActivitesCard h4 {
+    margin: 20px ; 
+    font-size: 14px;
+}
+
+.ActivitesImg{
+    object-fit: cover;
+    width: 300px; 
+    height: 450PX; 
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+}
+  /*footer */
+
+  footer {
+    background-color: #f0f0f0;
+    padding: 20px ;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-around;
+}
+
+.footer-section {
+    text-align: left; 
+    font-size: 16px;
+}
+
+.footer-title {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #000; 
+    
+    
+}
+
+.footer-section a {
+    text-decoration: none;
+    color: #555;
+    display: block;
+    margin-bottom: 16px; 
+    transition: color 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {

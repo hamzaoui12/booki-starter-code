@@ -17,9 +17,17 @@
 <body>
     <div class="main-container">
         <header>
-            <div class="filter-logo">
-                <img src="images/logo/Booki.png" width="50" />
-            </div>
+            <img class="logo" src="images/logo/Booki.png" width="100"/>      
+            <nav class="header_nav">
+              <ul class="menu">
+                <li>
+                  <a class="accommodation" href="accommodation">Hébergements</a>
+                </li>
+                <li>
+                  <a class="activities" href="activities">Activités</a>
+                </li>
+              </ul>
+            </nav>
         </header>
         <main>
             <div class="filter-container">
@@ -184,9 +192,9 @@
                         </a>                    
                    
                     </div> 
-                    <div>
-                        <p>Afficher plus </p>
-                    </div>
+                    <div class="hebergements-load-more">
+                        <p>Afficher plus</p>
+                      </div>
 
 
                 </section>
@@ -261,13 +269,49 @@
         </main>
         <section>
             <div>
-                <h1>Activités à Marseille</h1>
+                <h1 class="activates-title">Activités à Marseille</h1>
+                <div class="Activites">
+                    <a href="#"  class="ActivitesCard">
+                        <img class="ActivitesImg" src="images/activites/paul-hermann.jpg" alt="Photo du Vieux Port de Marseille"/>
+                        <h4>Vieux Port</h4>
+                    </a>
+                    <a href="#"  class="ActivitesCard">
+                        <img class="ActivitesImg" src="images/activites/reno-laithienne.jpg" alt="Photo du Vieux Port de Marseille"/>
+                        <h4>Vieux Port</h4>
+                    </a>
+                    <a href="#"  class="ActivitesCard">
+                        <img class="ActivitesImg" src="images/activites/florian-wehde.jpg" alt="Photo du Vieux Port de Marseille"/>
+                        <h4>Vieux Port</h4>
+                    </a>
+                    <a href="#"  class="ActivitesCard">
+                        <img class="ActivitesImg" src="images/activites/kilyan-sockalingum.jpg" alt="Photo du Vieux Port de Marseille"/>
+                        <h4>Vieux Port</h4>
+                    </a>
+
+                </div>
+                
+
             </div>
             
         </section>
         
         <footer>
-
+            <div class="footer-section">
+                <h4 class="footer-title">A propos</h4>
+                <a href="#">Fonctionnement du site</a>
+                <a href="#">Conditions générales</a>
+                <a href="#">Données et confidentialité</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Hébergements</h4>
+                <a href="#">Charte qualité</a>
+                <a href="#">Soumettre votre hôtel</a>
+            </div>
+            <div class="footer-section">
+                <h4 class="footer-title">Assistance</h4>
+                <a href="#">Centre d'aide</a>
+                <a href="#">Nous contacter</a>
+            </div>
         </footer>
     </div>
 </body>
