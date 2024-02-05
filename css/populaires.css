@@ -75,8 +75,21 @@
 
 }
 
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 655px) {
+    .hebergements-and-populaires {
+        flex-direction:column-reverse;
+    }
+
+    .populaires-cards  {
+        flex-direction: column; 
+        margin-top: 4px; 
+    }
+    .populaires-cards .card {
+        flex-direction:row; 
+        margin-top: 6px; 
+        width: 300%; 
+    }
 }
+
 
 

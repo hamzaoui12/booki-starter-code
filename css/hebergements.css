@@ -94,6 +94,12 @@
     }
 }
 
-@media (max-width: 767.98px) {
-    /* ... */
+@media (max-width: 655px) {
+   
+
+    .hebergements-cards {
+        grid-template-columns: repeat(1, 2fr);
+        gap: 40px; 
+    }
+
 }
