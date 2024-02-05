@@ -127,7 +127,26 @@
       }
 }
 
-@media (max-width: 656.98px) {
-
-    
-}
+@media (max-width: 655px) {
+    .filter-choice-list {
+      flex-wrap: wrap;
+    }
+    .filter-choice-list > li {
+        flex-basis: calc(40% - 1rem); 
+      }
+      .filter-input-search {
+        padding: 1.65rem ;
+        width: 100%;
+        font-size: 0;  
+        color: transparent; 
+        background-image:url();
+        background-size: cover; 
+        background-position: center; 
+        background-repeat: no-repeat; 
+        border-bottom-right-radius: 15px;
+        border-top-right-radius: 15px;
+        border-bottom-left-radius: 15px;
+        border-top-left-radius: 15px;
+      }
+      
+  }
