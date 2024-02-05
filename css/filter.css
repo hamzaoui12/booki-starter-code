@@ -1,0 +1,124 @@
+/* Filter Header */
+
+.filter-container {
+    margin-top: 3rem;
+  }
+  
+  .filter-title {
+    font-size: 22px;
+    font-weight: bold;
+    margin: 0.5rem 0;
+  }
+  
+  .filter-text > span {
+    font-size: 16px;
+    margin-left: 0.2rem;
+  }
+  
+  /* Filter input */
+  
+  .filter-input {
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    width: 25%;
+  }
+  
+  .filter-input > img {
+    padding: 1.15rem 1rem;
+    background-color: #f2f2f2;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  
+  .filter-input-text {
+    font-weight: bold;
+    padding: 1rem 1rem;
+    white-space: nowrap;
+    border-top: 2px solid #f2f2f2;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  
+  .filter-input-search {
+    padding: 1rem 1rem;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: var(--main-color);
+    border-bottom-right-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  
+  .filter-input-search:hover {
+    cursor: pointer;
+  }
+  
+  /* Filter Choice */
+  
+  .filter-choice {
+    margin-top: 1.5rem;
+    margin-left: 0.3rem;
+    position: relative;
+    display: flex;
+    align-items: center;
+  }
+  
+  .filter-choice-title {
+    font-size: 18px;
+  }
+  
+  .filter-choice-list {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin-left: -1rem;
+  }
+  
+  .filter-choice-list > li {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    border: 2px solid #f2f2f2;
+    border-radius: 30px;
+    padding: 0.8rem 1.2rem;
+    font-weight: bold;
+    font-size: 17px;
+  }
+  
+  .filter-choice-list > li:hover {
+    cursor: pointer;
+    background-color: var(--filter-bg-color);
+    transition: all 0.3s ease-in-out;
+  }
+  
+  /* Filter Info */
+  
+  .filter-info {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+    margin-left: 0.2rem;
+  }
+  
+  .filter-info-logo {
+    color: var(--main-color);
+    padding: 0.2rem 0.65rem;
+    border: 2px solid #f2f2f2;
+    border-radius: 100%;
+    font-weight: bold;
+  }
+  .activates-title {
+    font-size: 22px;
+
+
+}
+/*  la version responsive  */
+@media (max-width: 1024px) {
+    /* ... */
+}
+
+@media (max-width: 767.98px) {
+    /* ... */
+}

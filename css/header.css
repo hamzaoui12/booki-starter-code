@@ -1,0 +1,44 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    margin: 0 35px;
+  }
+  
+  .header_nav {
+    margin-left: auto;
+  }
+   
+ ul li a:hover {
+    color: #0065fc;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin: 0%;
+  }
+  
+  .menu li {
+    padding: 2rem;
+    border-top: 3px solid transparent;
+    border-bottom: 3px solid transparent;
+    color: black;
+  }
+  
+  .menu li:hover {
+    border-top: 3px solid#0065FC;
+  }
+
+  /*  la version responsive  */
+  
+  @media (max-width: 1024px) {
+    /* ... */
+}
+
+
+  @media (max-width: 767.98px) {
+    /* ... */
+}
