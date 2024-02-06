@@ -1,10 +1,15 @@
+
 header {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    position: relative;
-    margin: 0 35px;
-  }
+  margin-top: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  position: relative;
+}
+
+header > img {
+    width: 61px;
+    }
   
   .header_nav {
     margin-left: auto;
@@ -39,5 +44,5 @@ header {
 
 
   @media (max-width: 767.98px) {
-    /* ... */
+
 }
