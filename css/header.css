@@ -44,7 +44,7 @@ header > img {
 }
 
 
-@media (max-width: 655px) {
+@media (max-width: 376px) {
     header {
       justify-content: center;
       padding: 20px;

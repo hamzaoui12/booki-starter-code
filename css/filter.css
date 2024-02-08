@@ -127,12 +127,12 @@
       }
 }
 
-@media (max-width: 655px) {
+@media (max-width: 376px) {
     .filter-choice-list {
       flex-wrap: wrap;
     }
     .filter-choice-list > li {
-        flex-basis: calc(40% - 1rem); 
+        flex-basis: calc(40% - 2rem); 
       }
       .filter-input-search {
         padding: 1.65rem ;
