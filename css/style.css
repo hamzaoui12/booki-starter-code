@@ -1,48 +1,55 @@
 /****** General ***********/
 * {
-    font-family: "Raleway", sans-serif;
+  font-family: "Raleway", sans-serif;
+}
+
+:root {
+  --main-color: #0065fc;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
+}
+
+.fa-solid {
+  color: var(--main-color);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  width: 100%;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 100px;
+}
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+  }
+  .card img {
+    object-fit: cover;
   }
   
-  :root {
-    --main-color: #0065fc;
-    --main-bg-color: #f2f2f2;
-    --filter-bg-color: #deebff;
+  .card-title {
+    font-size: 16px;
   }
-  
-  .fa-solid {
-    color: var(--main-color);
-  }
-  
-  body {
-    display: flex;
-    justify-content: center;
-  }
-  
   .main-container {
     width: 100%;
-  }
+    max-width: 1440px;
+    box-sizing: border-box;
+}
+
   
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  img {
-    width: 100px;
-  }
-  .card {
-      background-color: white;
-      border-radius: 20px;
-      padding: 5px;
-      filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
-    }
-    .card img {
-      object-fit: cover;
-    }
-    
-    .card-title {
-      font-size: 16px;
-    }
 @media (max-width: 1024px) {
     /* MAIN  */
     body,

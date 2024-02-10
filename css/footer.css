@@ -1,3 +1,42 @@
+    /* FOOTER */
+    footer {
+        position: relative;
+        bottom: auto;
+        display: flex;
+        justify-content: center;
+        width: 94%;
+        padding: 1rem 0;
+        background-color: var(--main-bg-color);
+        box-sizing: border-box;
+        margin-top:6rem;
+        left: 2.5rem;
+        right: 0;
+      }
+    
+      footer section {
+        height: 200px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        width: 90%;
+      }
+    
+      footer .footer-section {
+        margin-bottom: 3rem;
+      }
+    
+      footer .footer-section div {
+        display: flex;
+        flex-direction: column;
+        gap: 0.8rem;
+      }
+    
+      footer .footer-title {
+        margin-bottom: 1.5rem;
+      }
+      /* FOOTER */
+
 @media (max-width: 1024px) {
     /* FOOTER */
   footer {
