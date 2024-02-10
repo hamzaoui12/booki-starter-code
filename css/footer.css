@@ -1,38 +1,81 @@
-footer {
-    margin-top: 4rem;
-    background-color: #f0f0f0;
-    padding: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-content: space-around;
-  }
-.footer-section {
-    text-align: left; 
-    font-size: 16px;
-}
-
-.footer-title {
-    font-size: 16px;
-    margin-bottom: 10px;
-    color: #000; 
-    
-    
-}
-
-.footer-section a {
-    text-decoration: none;
-    color: #555;
-    display: block;
-    margin-bottom: 16px; 
-    transition: color 0.3s ease-in-out;
-}
-/*  la version responsive  */
 @media (max-width: 1024px) {
-    /* ... */
+    /* FOOTER */
+  footer {
+    position: relative;
+    bottom: -1rem;
+    display: flex;
+    justify-content: center;
+    width: 94%;
+    padding: 1rem 0;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+    margin: auto;
+    left: 0;
+    right: 0;
+  }
+
+  footer section {
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    width: 90%;
+  }
+
+  footer .footer-section {
+    margin-bottom: 3rem;
+  }
+
+  footer .footer-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  footer .footer-title {
+    margin-bottom: 1.5rem;
+  }
+  /* FOOTER */
 }
 
-@media (max-width: 376px) {
-   footer {
-    grid-template-columns: repeat(1, 1fr);
-   }
+@media (max-width: 767.98px) {
+     /* FOOTER */
+  footer {
+    margin: 0;
+    position: relative;
+    bottom: -1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    width: 100%;
+    padding: 1rem 0;
+    background-color: var(--main-bg-color);
+    box-sizing: border-box;
+  }
+
+  footer section {
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 1rem;
+    width: 80%;
+    gap: 0;
+  }
+
+  footer .footer-section {
+    margin-bottom: 3rem;
+  }
+
+  footer .footer-section div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  footer .footer-title {
+    margin-bottom: 1.5rem;
+  }
+  /* FOOTER */
 }
