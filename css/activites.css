@@ -17,6 +17,9 @@
     gap: 2rem;
     
   }
+  .activities-cards a:hover {
+    scale:105%;
+  }
   
   .activities-cards a {
     border-radius: 15px;

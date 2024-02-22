@@ -15,6 +15,10 @@
     position: relative;
     right: 20px;
   }
+  .populaires-title > i:hover {
+    cursor: pointer; 
+    scale:110%;
+  }
   
   .populaires-cards {
     
@@ -33,11 +37,15 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
+
   
   .populaires-cards .card {
     display: flex;
     margin-top: 22px;
     background-color: white;
+  }
+  .populaires-cards .card:hover {
+    scale:105%;
   }
   
   .populaires-cards .card-content {

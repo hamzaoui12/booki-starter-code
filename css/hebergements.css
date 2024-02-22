@@ -15,13 +15,11 @@
     background-color: var(--main-bg-color);
     box-sizing: border-box;
   }
-  
 
   .hebergements {
     justify-content: center;
     width: 67%;
   }
-  
 
   .hebergements-cards {
     margin-top: 2rem;
@@ -31,7 +29,7 @@
     gap: 1.4rem;
     align-items: center;
   }
-  
+
   .hebergements-cards .card img {
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
@@ -47,6 +45,10 @@
     flex-direction: column;
     font-size: 0.9rem;
   }
+
+  .hebergements-cards .card:hover {
+    scale:105%;
+  }
   
   .hebergements-cards .card .card-content .card-title {
     margin: 0.7rem 0;
@@ -61,7 +63,6 @@
     font-size: 1.1rem;
     margin-left: 1.3rem;
   }
-  
 
   @media (max-width: 1024px) {
     .hebergements-and-populaires {
