@@ -36,14 +36,14 @@
     border-top: 2px solid #f2f2f2;
     border-bottom: 2px solid #f2f2f2;
     width: 100%;
-  }
-  .filter-input-search-text {
-    display: flex;
+    border-right: none;
+    border-left: none;
   }
 
   .filter-input-search-icon {
     display: none;
   }
+  
   .filter-input-search-text {
     display: flex;
     align-items: center;
@@ -56,6 +56,11 @@
     border-bottom-right-radius: 10px;
     font-weight: 900;
     font-size: 0.7rem;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+    border-bottom: none;
+
   }
   .filter-input-search-text:hover {
     background-color: #97b3e8; 
