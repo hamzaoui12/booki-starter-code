@@ -1,7 +1,5 @@
-
 .populaires {
     justify-content: center;
-    margin-top:0 1rem;
     width: 30%;
   }
   
@@ -15,13 +13,13 @@
     position: relative;
     right: 20px;
   }
+  
   .populaires-title > i:hover {
-    cursor: pointer; 
-    scale:110%;
+    cursor: pointer;
+    transform: scale(1.1); 
   }
   
   .populaires-cards {
-    
     display: flex;
     flex-direction: column;
     gap: 0rem;
@@ -37,15 +35,15 @@
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
   }
-
   
   .populaires-cards .card {
     display: flex;
     margin-top: 22px;
     background-color: white;
   }
+  
   .populaires-cards .card:hover {
-    scale:105%;
+    transform: scale(1.05); 
   }
   
   .populaires-cards .card-content {
@@ -67,41 +65,39 @@
     margin: 0.3rem 0;
   }
   
-
   @media (max-width: 1024px) {
     .populaires {
-      width: 100%;
-      margin-top: 1rem;
+        width: 100%;
+        margin-top: 1rem;
     }
   
     .populaires-cards {
-      flex-direction: row;
-      gap: 1rem;
+        flex-direction: row;
+        gap: 1rem;
     }
   }
   
   @media (max-width: 767.98px) {
     .populaires {
-      width: 90%;
-      margin-top: 3rem;
-      
+        width: 90%;
+        margin-top: 3rem;
     }
   
     .populaires-cards {
-      gap:2;
-      flex-direction:column;
+        gap: 2rem; 
+        flex-direction: column;
     }
   
     .populaires-cards .card {
-      margin-top: 10px;
+        margin-top: 10px;
     }
   
     .populaires-cards .card .card-content .card-title {
-      font-size: 1.05rem;
+        font-size: 1.05rem;
     }
   
     .populaires-cards .card .card-content .card-subtitle {
-      font-size: 0.95rem;
+        font-size: 0.95rem;
     }
   }
   

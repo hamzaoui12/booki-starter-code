@@ -119,7 +119,7 @@
   .filter-choice-list > li:hover {
     background-color: #97b3e8;
     cursor: pointer;
-    scale: 1.05;
+    transform: scale(1.05); 
   }
   
 
