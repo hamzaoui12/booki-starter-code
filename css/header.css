@@ -24,6 +24,7 @@ header {
     padding: 3px;
     width: 100%;
     list-style: none;
+    margin: 0;
   }
   
   .menu li {
