@@ -71,8 +71,7 @@
 
   .filter-choice {
     margin-top: 2rem;
-    width: 60%;
-    display:block;
+    display:flex;
     flex-direction: row;
     gap: 2rem;
   }
@@ -80,6 +79,7 @@
   .filter-choice-title {
     font-size: 1.3rem;
     margin-bottom: 0;
+    
   }
   
   .filter-choice-list {
@@ -372,6 +372,7 @@
   .filter-choice-title {
     font-size: 1.1rem;
     margin-bottom: 0.5rem;
+    
   }
 
   .filter-choice-list {
