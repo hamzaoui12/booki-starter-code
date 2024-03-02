@@ -1,5 +1,5 @@
 .filter-container {
-    padding: 0 2rem;
+    padding: 0 1rem;
   }
   .filter-title {
     font-size: 1.25rem;
@@ -117,22 +117,22 @@
   }
   
   .filter-choice-list > li:hover {
-    background-color: #97b3e8;
+    background-color: #acc9fc;
     cursor: pointer;
     transform: scale(1.05); 
   }
   
 
   .filter-info {
-    margin-top: 0.5rem;
-    margin-left: -1rem;
+    margin-top: 0;
+    margin-left:0;
     display: flex;
     align-items: center;
     gap: 0.8rem;
   }
 
   .filter-info-logo {
-    margin-left: 0.4rem;
+    margin-left: 0;
     height: 1.5rem;
     font-size: 12px;
     font-weight: 900;
@@ -234,7 +234,7 @@
     padding: 0px;
     list-style: none;
     display: grid;
-    width: 100%;
+    width: 90%;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     grid-row-gap: 0;
@@ -379,6 +379,7 @@
     padding: 0px;
     list-style: none;
     display: grid;
+    width: 100%;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
     grid-row-gap: 15px;
